@@ -1,7 +1,7 @@
  package com.xyz;
 
-import java.utils.Date;
-import org.apache.commons.lang.time.DateFormatUtils;
+import java.util.Date;
+import org.apache.commons.lang3.time.DateFormatUtils;
 
 public class App {
 	public static void main(String[] args) {
