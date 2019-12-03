@@ -8,7 +8,7 @@ public class App {
 		System.out.println("Hello, Today is "+ getToday());
 	}
 	public static String getToday() {
-		String today = DateFormatUtils.format(new Date(), "dd-mm-yyyy");
+		String today = DateFormatUtils.format(new Date(), "dd-MMM-yyyy");
 		return today;
 	}
 }
