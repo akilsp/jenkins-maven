@@ -8,9 +8,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>simple-app</artifactId>  
   <version>1.0</version>  
 
-  <dependency>
-  	 <groupId>org.apache.commons</groupId>
-   	 <artifactId>commons-lang3</artifactId>
-    	<version>3.0</version>
-  </dependency>  
+  <dependencies>
+    <dependency>
+       <groupId>org.apache.commons</groupId>
+       <artifactId>commons-lang3</artifactId>
+        <version>3.0</version>
+    </dependency>
+  </dependencies>
 </project>  
